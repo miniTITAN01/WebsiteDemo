@@ -1,0 +1,201 @@
+body{
+	background: #F0FFFF;
+	font-family: Trebuchet MS;
+	width:cover;
+}
+
+
+header{
+	width:cover;
+	height:100px;
+	background-image: url(../pink.jpg);
+}
+.logo img{
+	float: center;
+	width:120px;
+	height:100px;
+	position:relative;
+	left:50%;
+	margin-left:-100px;
+}
+
+.main ul{
+	
+	list-style-type: none; 
+	margin-top: 3%;
+	margin-left: 27%;
+}
+
+.main ul li{
+	display: inline-block;
+	font-family:Century Gothic;
+	
+}
+
+.main ul li a{
+	text-decoration:none;
+    color:#ffc0cb;
+	padding: 5px 15px;
+	border: 3px solid #ffc0cb;
+	font-size: 18px;
+	
+}
+
+.main ul li a:hover{
+	background-color:#000;
+	color: #ffc0cb;
+}
+
+.main ul li.active a{
+	background-color:#fff;
+	color: #000;
+}
+
+section{
+	width: cover;
+	
+	background:#fff;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:3%;
+}
+
+
+.dog-training-title{
+	font-size: 200%;
+	margin-left:10%;
+	padding:2%;
+	color: #00008B;
+}
+
+.dog-training-image{
+	width:60%;
+	padding:2%;
+	margin-top: -3%;
+	margin-left:15%;
+}
+
+.dog-training-content1{
+	font-size: 120%;
+	margin-left:3%;
+	margin-right:3%;
+	line-height:1.3em;
+}
+
+.dog-training-title2{
+	font-size: 150%;
+	margin-left:5%;
+	padding:2%;
+	color: #00008B;
+}
+
+.dog-training-content2{
+	font-size: 120%;
+	margin-left:3%;
+	margin-right:3%;
+	line-height:1.3em;
+}
+
+strong{
+	color:red;
+}
+
+.h3{
+	color:#FF1493;
+	font-size:200%;
+}
+
+#respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+
+.page-wrapper{
+	min-height:100%;
+	
+}
+
+
+.footer{
+	color:#d3d3d3;
+	background: #FF69B4;
+	height: 35%;
+	position:relative;
+	margin-top:2%;
+	
+}
+ .footer .footer-bottom{
+	 position:absolute;
+	 text-align:center;
+	 bottom:0;
+	 left:45%;
+	 padding-top:20%;
+ }
+ 
+ .footer .footer-content{
+	 display:flex;
+	 
+ }
+ 
+.footer .footer-content .footer-section {
+	flex:1;
+	border: 2px solid #FF69B4;
+	padding:0.7;
+}
+
+.footer .footer-content .about{
+	margin-left:1%;
+	text-align:center;
+	margin-top:2%;
+}
+.footer .footer-content .links{
+	margin-left:7%;
+	
+	
+}
+
+.footer .footer-content .links ul a{
+	display:block;
+	font-size: 1em;
+	margin-top:1%;
+}
+.footer .footer-content .links ul a:hover{
+	margin-left:10%;
+	transition: all .3s;
+	color:white;
+}
+
+.footer .footer-content .contact-form .contact-input{
+	margin-bottom: 5%;
+	margin-left:-10%;
+	line-height:1.5em;
+	width:100%;
+	border:none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+	background:#FFF0F5;
+}
+
+.footer .footer-content .contact-form button{
+	width:30%;
+	font-size:1em;
+	margin-left:-10%;
+}

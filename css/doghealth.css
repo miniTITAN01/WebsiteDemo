@@ -1,0 +1,221 @@
+body{
+	background: #F0FFF0;
+	font-family: "Quicksand",sans-serif;
+	width:cover;
+}
+
+
+header{
+	width:cover;
+	height:100px;
+	background-image: url(../pink.jpg);
+}
+.logo img{
+	float: center;
+	width:120px;
+	height:100px;
+	position:relative;
+	left:50%;
+	margin-left:-100px;
+}
+
+.main ul{
+	
+	list-style-type: none; 
+	margin-top: 3%;
+	margin-left: 27%;
+}
+
+.main ul li{
+	display: inline-block;
+	font-family:Century Gothic;
+	
+}
+
+.main ul li a{
+	text-decoration:none;
+    color:#ffc0cb;
+	padding: 5px 15px;
+	border: 3px solid #ffc0cb;
+	font-size: 18px;
+	
+}
+
+.main ul li a:hover{
+	background-color:#000;
+	color: #ffc0cb;
+}
+
+.main ul li.active a{
+	background-color:#fff;
+	color: #000;
+}
+
+section{
+	width: cover;
+	height:1150px;
+	background:#fff;
+	margin-left:150px;
+	margin-right:150px;
+}
+
+h1{ 
+font-family: cursive;
+font-weight: bold;
+font-size: 50;
+color:#32CD32;
+margin-left: 32%;
+}
+
+.dog-health-content{
+	margin-left:38%;
+	line-height:1.5em;
+}
+
+.dog-health-info {
+	float:left;
+	width:20%;
+	height:50%;
+	margin-top: 8%;
+	
+}
+
+
+ul{
+	list-style-image: url(http://tympanus.net/codrops-playground/assets/images/cssref/pseudo/list-style-image/list-style-image-2.png);
+}
+
+h3{
+	font-family: cursive;
+    font-weight: bold;
+    font-size: 30;
+    color:#32CD32;
+    
+}
+
+.dog-health-topic{
+	margin-left:32%;
+	margin-top:3%;
+}
+
+.dog-health-content2{
+	
+	line-height:1.5em;
+	margin-left:3%;
+	margin-right:3%;
+	
+}
+
+.p1{
+	float:left;
+	margin-top:-7%;
+}
+
+.u1{
+	margin-top:10%;
+}
+
+.dog-health-topic2{
+	text-align:center;
+}
+
+.dog-health-content3{
+	line-height:1.5em;
+	margin-left:3%;
+	margin-right:3%;
+	
+}
+
+.h3{
+	color:#FF1493;
+}
+
+#respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'], 
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+
+.page-wrapper{
+	min-height:100%;
+	
+}
+
+
+.footer{
+	color:#d3d3d3;
+	background: #FF69B4;
+	height: 30%;
+	position:relative;
+	margin-top:1%;
+	
+}
+ .footer .footer-bottom{
+	 position:absolute;
+	 text-align:center;
+	 bottom:0;
+	 left:45%;
+	 padding-top:20%;
+ }
+ 
+ .footer .footer-content{
+	 display:flex;
+ }
+ 
+.footer .footer-content .footer-section {
+	flex:1;
+	border: 1px solid #FF69B4;
+	padding:1.6%;
+}
+
+.footer .footer-content .links{
+	margin-left:8%;
+}
+
+.footer .footer-content .links ul a{
+	display:block;
+	font-size: 1em;
+}
+.footer .footer-content .links ul a:hover{
+	margin-left:10%;
+	transition: all .3s;
+	color:white;
+}
+
+.footer .footer-content .contact-form .contact-input{
+	margin-bottom: 5%;
+	line-height:1.5em;
+	width:100%;
+	border:none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+	background:#FFF0F5;
+}
+
+.footer .footer-content .contact-form button{
+	width:30%;
+	font-size:1em;
+}
+
+
+
+
+
+
